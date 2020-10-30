@@ -21,7 +21,7 @@ Describe "League tests" {
             Select-Winner -Team1 "Other" -Team2 "Widzew" | Should -be "Widzew"
         }
         It "new case" {
-            Select-Winner -Team1 "Other" -Team2 "Widzew" | Should -be "Widzew"
+            Select-Winner -Team1 "Other" -Team2 "Widzew" | Should -be "Widzew2"
         }
     }
 }
