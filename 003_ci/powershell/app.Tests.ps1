@@ -11,5 +11,11 @@ Describe "League tests" {
         It "should another win" {
             Select-Winner -Team1 "Other" -Team2 "Widzew" | Should -be "Widzew"
         }
+        It "should another win" {
+            Select-Winner -Team1 "Other" -Team2 "Widzew" | Should -be "Widzew"
+        }
+        It "should another win" {
+            Select-Winner -Team1 "Other" -Team2 "Widzew" | Should -be "Widzew"
+        }
     }
 }
